@@ -22,7 +22,7 @@ spec:
 
   - name: mycodeblock1
     container:
-      image: docker.io/sherin/housepriceapp:1.1 # Your docker image name
+      image: docker.io/sherin/housepriceapp:1.2 # Your docker image name
       command: ["/bin/sh", "-c"]
       args:
         - "python /app/src/main.py"
